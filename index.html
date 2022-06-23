@@ -13,14 +13,15 @@
     <nav>
         <div class="nav__container container">
             <a href="#index"><h1>LOGO</h1></a>
-            <i class='bx bx-menu' ></i>
-            <ul class="nav__list">
+            <ul class="nav__list" id="navbar">
+                <i class='bx bx-x' id="closeBtn" onclick="closeMenu()"></i>
                 <li><a href="#index">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            <i class='bx bx-menu' id="openBtn" onclick="openMenu()"></i>
         </div>
     </nav>
 
@@ -272,6 +273,7 @@
             <p>&copy; Feito por Leonardo Villar | Todos os direitos reservados</p>
         </div>
     </footer>
-    
+   
+    <script src="/index.js"></script>
 </body>
 </html>
